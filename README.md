@@ -1,4 +1,4 @@
-#  OrangeHRM Automation Testing Framework
+#  Problem Statement 2: QualityHR – Selenium-Java Test Automation Framework for an HR Management Web Application
 
 ##  Project Overview
 
