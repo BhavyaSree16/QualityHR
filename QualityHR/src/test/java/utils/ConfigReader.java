@@ -29,4 +29,28 @@ public class ConfigReader {
     public int getTimeout() {
         return Integer.parseInt(prop.getProperty("timeout"));
     }
+    
+    public String getAdminUsername() {
+        return prop.getProperty("admin.username");
+    }
+
+    public String getAdminPassword() {
+        return prop.getProperty("admin.password");
+    }
+
+    public String getEmployeeFirstName() {
+        return prop.getProperty("employee.firstname");
+    }
+
+    public String getEmployeeMiddleName() {
+        return prop.getProperty("employee.middlename");
+    }
+    
+    public String getEmployeeLastName() {
+        return prop.getProperty("employee.lastname");
+    }
+
+    public String getInvalidEmployee() {
+        return prop.getProperty("invalid.employee");
+    }
 }

@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-<test name="Login Tests">
+
+<suite name="HRM Automation Suite" parallel="tests" thread-count="2">
+
+    <!-- Login Module -->
+    <!-- <test name="Login Tests">
         <classes>
             <class name="tests.LoginTest"/>
         </classes>
+    </test> -->
+
+    <!-- Employee Module -->
+    <test name="Employee Tests">
+        <classes>
+            <class name="tests.EndToEndTest"/>
+        </classes>
     </test>
-</suite> <!-- Suite -->
+
+</suite>
