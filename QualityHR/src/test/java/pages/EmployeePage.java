@@ -164,4 +164,7 @@ public class EmployeePage extends BasePage {
 
         return false;
     }
+    public boolean selectGenderDropdown() {
+        return selectDropdownOption();
+    }
 }
