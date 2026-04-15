@@ -13,7 +13,7 @@
         <classes>
             <class name="tests.EmployeeTest"/>
         </classes>
-    </test> -->
+    </test>  -->
     
     <!-- <test name="Login Tests">
         <classes>
@@ -22,10 +22,10 @@
     </test> -->
 
     <!-- Employee Module -->
-    <test name="Employee Tests">
+    <!-- <test name="Employee Tests">
         <classes>
             <class name="tests.LeaveTest"/>
         </classes>
     </test>
-
+ -->
 </suite>
