@@ -8,11 +8,23 @@
             <class name="tests.LoginTest"/>
         </classes>
     </test> -->
+    
+    <!-- <test name="Login Tests">
+        <classes>
+            <class name="tests.EmployeeTest"/>
+        </classes>
+    </test> -->
+    
+    <!-- <test name="Login Tests">
+        <classes>
+            <class name="tests.LeaveTest"/>
+        </classes>
+    </test> -->
 
     <!-- Employee Module -->
     <test name="Employee Tests">
         <classes>
-            <class name="tests.EndToEndTest"/>
+            <class name="tests.LeaveTest"/>
         </classes>
     </test>
 

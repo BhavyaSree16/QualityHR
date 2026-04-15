@@ -53,4 +53,22 @@ public class ConfigReader {
     public String getInvalidEmployee() {
         return prop.getProperty("invalid.employee");
     }
+    
+ // 🔥 Leave module configs
+
+    public String getLeaveType() {
+        return prop.getProperty("leave.type");
+    }
+
+    public String getLeaveFromDate() {
+        return prop.getProperty("leave.fromDate");
+    }
+
+    public String getLeaveToDate() {
+        return prop.getProperty("leave.toDate");
+    }
+
+    public String getPastDate() {
+        return prop.getProperty("leave.pastDate");
+    }
 }

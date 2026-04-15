@@ -3,14 +3,15 @@
 <suite thread-count="2" parallel="tests" name="Failed suite [HRM Automation Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="2" parallel="tests" name="Employee Tests(failed)">
     <classes>
-      <class name="tests.EmployeeTest">
+      <class name="tests.LeaveTest">
         <methods>
           <include name="setup"/>
+          <include name="verifyLeaveList"/>
           <include name="tearDown"/>
-          <include name="addEmployeeVerifyById"/>
-          <include name="openEmployeeAndVerifyDetails"/>
+          <include name="pastDateValidationTest"/>
+          <include name="applyLeaveTest"/>
         </methods>
-      </class> <!-- tests.EmployeeTest -->
+      </class> <!-- tests.LeaveTest -->
     </classes>
   </test> <!-- Employee Tests(failed) -->
 </suite> <!-- Failed suite [HRM Automation Suite] -->
