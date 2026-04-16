@@ -1,31 +1,24 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="HRM Automation Suite" parallel="tests" thread-count="2">
+<suite name="HRM Automation Suite" parallel="tests" thread-count="3">
 
-    <!-- Login Module -->
-    <!-- <test name="Login Tests">
+    <!--Module-1  -->
+    <test name="Login Tests">
         <classes>
             <class name="tests.LoginTest"/>
         </classes>
-    </test> -->
-    
-    <!-- <test name="Login Tests">
+    </test> 
+    <!--Module-2  -->
+    <test name="Employee Tests">
         <classes>
             <class name="tests.EmployeeTest"/>
         </classes>
-    </test>  -->
-    
-    <!-- <test name="Login Tests">
-        <classes>
-            <class name="tests.LeaveTest"/>
-        </classes>
-    </test> -->
-
-    <!-- Employee Module -->
-    <!-- <test name="Employee Tests">
+    </test>
+    <!--Module-3  -->
+     <test name="Login Tests">
         <classes>
             <class name="tests.LeaveTest"/>
         </classes>
     </test>
- -->
+
 </suite>
