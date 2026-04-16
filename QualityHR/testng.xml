@@ -8,12 +8,14 @@
             <class name="tests.LoginTest"/>
         </classes>
     </test> 
+    
     <!--Module-2  -->
     <test name="Employee Tests">
         <classes>
             <class name="tests.EmployeeTest"/>
         </classes>
     </test>
+    
     <!--Module-3  -->
      <test name="Login Tests">
         <classes>
