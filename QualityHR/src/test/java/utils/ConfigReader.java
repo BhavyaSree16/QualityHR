@@ -71,4 +71,20 @@ public class ConfigReader {
     public String getPastDate() {
         return prop.getProperty("leave.pastDate");
     }
+    
+    public String getUserRole() {
+        return prop.getProperty("user.role");
+    }
+
+    public String getUserStatus() {
+        return prop.getProperty("user.status");
+    }
+
+    public String getUserPassword() {
+        return prop.getProperty("user.password");
+    }
+
+    public String getEmployeeName() {
+        return prop.getProperty("employee.name");
+    }
 }

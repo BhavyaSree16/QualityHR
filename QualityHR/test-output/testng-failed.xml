@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [HRM Automation Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="Login Tests(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.EmployeeTest">
+      <class name="tests.AdminTest">
         <methods>
           <include name="setup"/>
+          <include name="userManagementTest"/>
           <include name="tearDown"/>
-          <include name="addEmployeeVerifyById"/>
-          <include name="searchEmployeeByName"/>
-          <include name="openEmployeeAndVerifyDetails"/>
         </methods>
-      </class> <!-- tests.EmployeeTest -->
+      </class> <!-- tests.AdminTest -->
     </classes>
-  </test> <!-- Login Tests(failed) -->
-</suite> <!-- Failed suite [HRM Automation Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

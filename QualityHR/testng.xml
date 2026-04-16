@@ -22,5 +22,12 @@
             <class name="tests.LeaveTest"/>
         </classes>
     </test>
+    
+    <!--Module-4  -->
+     <test name="Login Tests">
+        <classes>
+            <class name="tests.AdminTest"/>
+        </classes>
+    </test>
 
 </suite>
